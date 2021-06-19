@@ -1,0 +1,170 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-image: url("../images/bg_1.jpg");
+}
+
+.title{
+    text-align: center;
+    backdrop-filter:blur(5px);
+    margin: 0px auto;
+    color:#fff;
+    text-shadow: 2px 2px 2px #111;
+    position: sticky;
+    top:0em;
+    z-index: 10;
+}
+.card{
+    border: none;
+    margin:10px 0px 0px 0px;
+    display: inline-block;
+    width: fit-content;
+    background: rgba(0,0,0,0);
+}
+
+
+.card .card-header .cardImg{
+    padding:0px 0px;
+    background: #ffd301;
+    margin:10px 0px 0px 0px;
+    z-index:0;
+    height:100%;
+    width:fit-content;
+}
+
+#screen1{
+    z-index: 0;
+    margin: 15px 15px;
+    border-radius: 8px;
+    filter:grayscale(100%);
+    box-shadow: 5px 5px 5px #444;
+}
+#screen1:hover{
+
+    border-radius: 8px;
+    filter:grayscale(0%);
+}
+
+.screenBox{
+    display: inline-block;
+}
+
+.screenBox p{
+    display: inline;
+}
+
+.footBase {
+    font-size: 1.4em;
+    color:#fff;
+    text-shadow: 2px 2px 2px #333;
+    text-align: center;
+    text-transform: uppercase;
+    backdrop-filter: blur(2px);
+    clear: both;
+    position: relative;
+    height: 150px;
+}
+
+.price1{ 
+    width:0%;
+    visibility: hidden;
+    position:absolute;
+    top:30px;
+    left: -5px;
+    background:#3417d8;
+    color:#fff;
+    text-shadow: 1px 1px 1px #000;
+    margin:2px 5px;
+    font-size: 1.8em;
+    width:auto;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    z-index:5;
+    backdrop-filter: blur(2px);
+   
+}
+
+.price2{ 
+    visibility: hidden;
+    position:absolute;
+    top:90px;
+    left: -5px;
+    background:#f2f1f5;
+    color:#fff;
+    text-shadow: 1px 1px 1px #000;
+    margin:2px 5px;
+    font-size: 1.8em;
+    width:auto;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    z-index:5;
+    backdrop-filter: blur(2px);
+   
+}
+
+.price3{ 
+    visibility: hidden;
+
+    position:absolute;
+    top:150px;
+    left: -5px;
+    background:#ff0b03;
+    color:#fff;
+    text-shadow: 1px 1px 1px #000;
+    margin:2px 5px;
+    font-size: 1.8em;
+    width:auto;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    z-index:5;
+    backdrop-filter: blur(2px);
+   
+}
+
+.circle{
+    visibility: hidden;
+    
+    border-radius: 8px;
+    background: #20745a;
+    color: #2ebe93;
+    position: absolute;
+    top:20px;
+    right: -5px;
+    margin:2px 5px;
+    font-size: 24px;
+    width:100px;
+    padding: 5px 5px 5px 15px ;
+    z-index:-1;
+}
+
+circle2{
+    visibility: hidden;
+    
+    border-radius: 8px;
+    background: #20745a;
+    color: #2ebe93;
+    position: absolute;
+    top:20px;
+    right: -5px;
+    margin:2px 5px;
+    font-size: 24px;
+    width:100px;
+    padding: 5px 5px 5px 15px ;
+    z-index:-1;
+}
+
+circle3{
+    visibility:hidden;
+    
+    border-radius: 8px;
+    background: #20745a;
+    color: #2ebe93;
+    position: absolute;
+    top:20px;
+    right: -5px;
+    margin:2px 5px;
+    font-size: 24px;
+    width:100px;
+    padding: 5px 5px 5px 15px ;
+    z-index:-1;
+}
